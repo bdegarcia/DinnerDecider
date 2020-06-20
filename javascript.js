@@ -33,7 +33,7 @@ $("#recipe-button").on("click", function(event){
     $("#recipeDiv").empty();
     var searchQ = $(".input").val()
     var maxCookTime = $("#cook-time").val()
-     $("#cook-time").val()
+     $("#cook-time select").val()
     var queryURL = edamamURL + searchQ + "&app_id=" + edamAppID + "&app_key=" + edamKey + "&from=0&to=5&time=1-" + maxCookTime ; 
     
     $.ajax({

@@ -21,12 +21,12 @@
           <div class="container">
             <h1 class="title">
               DinnerDecider
+              <image class="bannerBGmain" img alt="foodingredients" src="assets/images/bannerBGmain.png"></image>
             </h1>
             <h2 class="subtitle">
               Time to eat!
               <i class="fa fa-cutlery" aria-hidden="true"></i>
             </h2>
-              <image class="bannerBG" img alt="" src="assets\images\bannerBGmain.png">
 
           </div>
         </div>
@@ -44,7 +44,7 @@
           <div class="columns">
             <div class="column" id="firstColumn">
               <div class="card">
-                <div class="card-content">
+                <div id=ingredients div class="card-content">
               <div class="field">
                 <label class="label">Ingredients</label>
                 <div class="control">
@@ -85,15 +85,18 @@
                 <div id="drink-info" class="card-content">
                   <div class="card-image has-text-centered">
                     <figure class="image is-128x128 is-inline-block">
-                      <img class="is-rounded mt-3" id="drinkimage" src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
+                  
+                      <img class="is-rounded mt-3" id="drinkimage" src="assets/images/beverage.jpg">
                     </figure>
                   </div>
                     <div class="card-content">
                       <div class="media">
                         <div class="media-content">
                           <p class="title is-4">Pairing Selection
+                            <!--
                             <i class="fa fa-glass" aria-hidden="true"></i>
                             <i class="fa fa-beer" aria-hidden="true"></i>
+                            -->
                           </p>
                         </div>
                       </div>
@@ -108,26 +111,30 @@
                 </div>
               </div>
             </div>
-            <div class="column">
+            <div class="column" div id="second column">
               <!-- Begin 2nd column -->
               <div class="card">
                 <div id="recipeDiv" class="card-content">
                   <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-96x96">
+                    
+                    <div class="media-right">
+                  
+                      <figure class="image is-96x96" id="recipe">
                         <img
-                          src="https://bulma.io/images/placeholders/96x96.png"
-                          alt="Placeholder image"
-                        />
+                          src="assets/images/steak.jpeg">
+                    
+                      </img>
                       </figure>
                     </div>
                     <div class="media-content">
-                      <p class="title is-4">Recipe Name Here</p>
-                      <p class="subtitle is-6">Ingredients here</p>
+                      <p class="title is-4">Recipe</p>
+                      <!---
+                      <p class="subtitle is-6"></p>
+                    -->
                     </div>
                   </div>
                   <div class="content">
-                    Description of recipe goes here.
+                    <!--Description of recipe goes here.-->
                     <br />
                     <br />
                     <a href="#">Link to full recipe page here.</a>

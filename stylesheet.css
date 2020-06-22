@@ -1,0 +1,84 @@
+
+
+body {
+    background-color: silver;
+
+}
+#ingredients{
+    background-image: url('assets/images/spice_spoon.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    
+}
+.help{
+    text-align: center;
+    font-size: small;
+    font-weight: 800;
+    color:whitesmoke;
+    text-shadow:0.09 0 black,0 0.9em black,-0 0.9em black, 0 -0.9em 0 black
+}
+#drink-info{
+    text-align: center;
+    
+}
+.title{
+    color: white;
+    text-align: center;
+}
+.label{
+    color:white;
+    font-size: larger;
+    font-feature-settings: "blws";
+}
+
+#firstcolumn {
+    display: block;
+    box-sizing: content-box;
+}
+#drink-btn{
+    text-align: center;
+    background-color: silver;
+}
+#drink-info{
+    text-align: center;
+    background-color: silver;
+    border-width: thin;
+    
+}
+#drinkimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+}
+#recipeDiv{
+    background-color: silver;
+    font-size: larger;
+    text-align: center;
+}
+
+#recipe{
+    width: 150px;
+    text-align: center;
+}
+h1{
+    text-align: center;  
+  }
+  h2{
+      text-align: center;
+      font-size: x-large;
+  }
+  .label{
+      font-size: larger;
+      image-resolution: url('assets/images/bannerBGmain');
+    background-size: 100% 100%;
+    margin-top: auto;
+      
+  }
+img{
+    border-radius: 50%;
+}
+
+
+  

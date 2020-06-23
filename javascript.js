@@ -28,6 +28,8 @@ $("#drink-button").on("click", function(event){
     })    
 })
 
+
+
 $("#recipe-button").on("click", function(event){
     event.preventDefault()
     $("#recipeDiv").empty();

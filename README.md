@@ -6,16 +6,3 @@ Possible inputs:
 
 * ingredients
 * time range
-* cooking method
-* how many people to feed
-
-Return:
-
-* recipe(s)
-    * nutritional info
-    * additional ingredients needed
-
-possible additions:
-
-* save recipes (local storage?)
-* youtube integration?

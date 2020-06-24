@@ -5,7 +5,7 @@ body {
 
 }
 #ingredients{
-    background-image: url('assets/images/spice_spoon.jpg');
+    background-image: url('images/spice_spoon.jpg');
     background-size: 100% 100%;
     text-align: center;
     color: white;
@@ -71,7 +71,7 @@ h1{
   }
   .label{
       font-size: larger;
-      image-resolution: url('assets/images/bannerBGmain');
+      image-resolution: url('images/bannerBGmain');
     background-size: 100% 100%;
     margin-top: auto;
       
